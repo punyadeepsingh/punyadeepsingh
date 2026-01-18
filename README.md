@@ -1,161 +1,31 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Phone Control Dashboard</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="container">
-    <header class="header">
-        <h1>📱 Phone Control Dashboard</h1>
-        <p class="subtitle">Control your device settings from anywhere</p>
-    </header>
+# 💫 About Me:
+I am a passionate B.Tech Computer Science Engineering student, currently in my 4th semester, with a strong interest in web development and software engineering. I enjoy learning new technologies and applying them through hands-on projects and virtual internships.
 
-    <main class="main-content">
 
-        <!-- Running Tracker -->
-        <section class="card">
-            <h2>🏃 Running Tracker</h2>
-            <div id="gpsStatus">GPS inactive</div>
-            <div class="info-grid">
-                <div class="info-item">
-                    <span class="label">Distance:</span>
-                    <span class="value" id="distance">0.00 km</span>
-                </div>
-                <div class="info-item">
-                    <span class="label">Speed:</span>
-                    <span class="value" id="speed">0.0 km/h</span>
-                </div>
-            </div>
-            <div style="margin-top:10px;">
-                <button class="control-btn" id="startRun">START RUN</button>
-                <button class="control-btn" id="stopRun">STOP</button>
-            </div>
-        </section>
+## 🌐 Socials:
+[![Bluesky](https://img.shields.io/badge/bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=%23FFFFFF)](https://bsky.app/profile/punyadeepsingh) [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/@punyadeep_singh) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Punyadeep Singh Solanki) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@Punyadeepsinghsolanki) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:punyadeepsingh1431@gmail.com) 
 
-        <!-- Device Info Section -->
-        <section class="card device-info-card">
-            <h2>Device Information</h2>
-            <div class="info-grid">
-                <div class="info-item">
-                    <span class="label">Device:</span>
-                    <span class="value" id="deviceInfo">Detecting...</span>
-                </div>
-                <div class="info-item">
-                    <span class="label">Battery:</span>
-                    <span class="value" id="batteryLevel">Detecting...</span>
-                </div>
-                <div class="info-item">
-                    <span class="label">Connection:</span>
-                    <span class="value" id="networkStatus">Checking...</span>
-                </div>
-                <div class="info-item">
-                    <span class="label">Orientation:</span>
-                    <span class="value" id="orientation">Portrait</span>
-                </div>
-            </div>
-            <div class="battery-bar">
-                <div class="battery-fill" id="batteryFill"></div>
-            </div>
-        </section>
+# 💻 Tech Stack:
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Unreal Engine](https://img.shields.io/badge/unrealengine-%23313131.svg?style=for-the-badge&logo=unrealengine&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=punyadeepsingh&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=punyadeepsingh&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=punyadeepsingh&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
-        <!-- Display Controls -->
-        <section class="card">
-            <h2>Display Controls</h2>
-            <div class="control-group">
-                <div class="control-item">
-                    <label>Brightness</label>
-                    <input type="range" id="brightnessSlider" min="0" max="100" value="80" class="slider">
-                    <span class="value-display" id="brightnessValue">80%</span>
-                </div>
-                <button class="control-btn" id="toggleFlashlight">💡 Flashlight</button>
-            </div>
-        </section>
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=punyadeepsingh&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-        <!-- Audio Controls -->
-        <section class="card">
-            <h2>Audio Controls</h2>
-            <div class="control-group">
-                <div class="control-item">
-                    <label>Volume</label>
-                    <input type="range" id="volumeSlider" min="0" max="100" value="70" class="slider">
-                    <span class="value-display" id="volumeValue">70%</span>
-                </div>
-                <div class="control-item">
-                    <label>Sound Mode</label>
-                    <div class="mode-buttons">
-                        <button class="mode-btn active" data-mode="sound">🔊 Sound</button>
-                        <button class="mode-btn" data-mode="vibrate">📳 Vibrate</button>
-                        <button class="mode-btn" data-mode="silent">🔇 Silent</button>
-                    </div>
-                </div>
-            </div>
-        </section>
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-        <!-- Device Settings -->
-        <section class="card">
-            <h2>Device Settings</h2>
-            <div class="settings-grid">
-                <div class="setting-item"><span>🌍 Airplane Mode</span><input type="checkbox" id="airplaneMode"></div>
-                <div class="setting-item"><span>📶 Mobile Data</span><input type="checkbox" id="mobileData" checked></div>
-                <div class="setting-item"><span>📡 WiFi</span><input type="checkbox" id="wifi" checked></div>
-                <div class="setting-item"><span>🔵 Bluetooth</span><input type="checkbox" id="bluetooth"></div>
-                <div class="setting-item"><span>🔒 Auto-rotate</span><input type="checkbox" id="autoRotate" checked></div>
-                <div class="setting-item"><span>🌙 Dark Mode</span><input type="checkbox" id="darkMode"></div>
-            </div>
-        </section>
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=punyadeepsingh&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
-        <!-- Device Actions -->
-        <section class="card">
-            <h2>Device Actions</h2>
-            <div class="action-buttons">
-                <button class="action-btn" id="vibrateBtn">📳 Vibrate</button>
-                <button class="action-btn" id="screenshotBtn">📸 Screenshot</button>
-                <button class="action-btn" id="lockScreenBtn">🔐 Lock Screen</button>
-            </div>
-        </section>
+---
+[![](https://visitcount.itsvg.in/api?id=punyadeepsingh&icon=0&color=0)](https://visitcount.itsvg.in)
 
-        <!-- System Info -->
-        <section class="card">
-            <h2>System Information</h2>
-            <div class="system-info">
-                <div class="info-row"><span>Storage Used:</span><div class="storage-bar"><div id="storageFill"></div></div><span id="storageValue">0 GB</span></div>
-                <div class="info-row"><span>Memory Used:</span><div class="memory-bar"><div id="memoryFill"></div></div><span id="memoryValue">0 GB</span></div>
-                <div class="info-row">
-                    <span>Screen Timeout:</span>
-                    <select id="screenTimeout">
-                        <option value="15">15 seconds</option>
-                        <option value="30">30 seconds</option>
-                        <option value="60" selected>1 minute</option>
-                        <option value="300">5 minutes</option>
-                        <option value="600">10 minutes</option>
-                        <option value="1800">30 minutes</option>
-                    </select>
-                </div>
-            </div>
-        </section>
+  ## 💰 You can help me by Donating
+  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/9256848991@sbi) 
 
-        <!-- Quick Actions -->
-        <section class="card">
-            <h2>Quick Actions</h2>
-            <div class="quick-actions">
-                <button id="callEmergency">📞 Emergency</button>
-                <button id="openCamera">📷 Camera</button>
-                <button id="openSettings">⚙️ Settings</button>
-                <button id="openGallery">🖼️ Gallery</button>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="footer">
-        <p>Tip: Refreshing the page will sync with your device's current settings</p>
-        <p id="lastUpdated">Last updated: Just now</p>
-    </footer>
-</div>
-
-<script src="script.js"></script>
-</body>
-</html>
+  
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
